@@ -5,13 +5,13 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(array)
-  array.each do |assign|
-    puts "Hello, #{assign}! You'll be assigned to #{array.index(assign)}!"
-  end
+  
 end
 
 def assign_rooms
-
+  array.each do |assign|
+    puts "Hello, #{assign}! You'll be assigned to #{array.index(assign) + 1}!"
+  end
 end
 
 def printer
