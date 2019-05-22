@@ -20,6 +20,13 @@ def assign_rooms(array)
   new_array
 end
 
-def printer
-
+def printer(array)
+  array1 = batch_badge_creator(array)
+    array1.each do
+      puts array1
+    end
+  array2 = assign_rooms(array)
+    array2.each do
+      puts array2
+    end
 end
